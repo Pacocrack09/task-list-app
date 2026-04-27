@@ -1,0 +1,31 @@
+body {
+  background: #f4f6f9;
+}
+
+.card {
+  border: none;
+}
+
+.list-group-item {
+  border-left: 3px solid transparent;
+  transition: background 0.15s;
+}
+
+.list-group-item:hover {
+  background: #f8f9fa;
+}
+
+/* completed task styles */
+.task-done {
+  border-left-color: #198754;
+  background: #f0faf4;
+}
+
+.task-done .task-title {
+  text-decoration: line-through;
+  color: #999;
+}
+
+.task-done:hover {
+  background: #e8f5ee;
+}
